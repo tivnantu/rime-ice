@@ -1,6 +1,12 @@
 patch:
+  schema_list:
+    - schema: rime_ice
+
   menu/+:
     page_size: 9
+
+  switcher/+:
+    fold_options: false
 
   ascii_composer/+:
     switch_key/+:
